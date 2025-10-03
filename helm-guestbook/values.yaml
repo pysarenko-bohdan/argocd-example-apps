@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: gcr.io/google-samples/gb-frontend-arm64
   # tag: sample-public-image-v5-5be2e51
-  tag: v6
+  tag: v5
 
 containerPort: 80
 
