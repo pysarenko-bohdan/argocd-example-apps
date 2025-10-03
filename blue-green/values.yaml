@@ -3,10 +3,11 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
+        
 image:
-  repository: gcr.io/google-samples/gb-frontend-arm64
-  tag: v6
+  repository: gcr.io/google-samples/gb-frontend
+#  tag: sample-public-image-v5-5be2e51
+  tag: v5
   pullPolicy: IfNotPresent
 
 service:
